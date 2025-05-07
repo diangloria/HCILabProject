@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Caesar+Dressing&family=Cinzel:wght@500;700&family=Cormorant+Infant:wght@700&display=swap');
+.hero{
+    /* width: auto; */
+    width: 200px;
+    aspect-ratio: 1/1;
+    /* height: 200px; */
+    height: auto;
+    margin: 16px;
+    top: 0;
+    padding: 0;
+    /* object-fit: contain; */
+}
+.hero:hover .fo{
+    opacity: 100%;
+}
+.hero:hover .heroname{
+    color: white;
+}
+.fo{
+    /* position: relative; */
+    height: 200px;
+    object-fit: contain;
+    opacity: 80%;
+}
+.herophoto{
+    width: 100%;
+    object-fit: contain;
+}
+.hero-box{
+    position: absolute;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: rgba(0,0,0,0.5);
+    /* vertical-align: middle; */
+    left: 2%;
+    top: 23%;
+    width: 96%;
+    height: auto;
+    border-radius: 10px;
+    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-sizing: content-box;
+    flex-direction: row;
+    overflow: scroll;
+}
+.hero-box::-webkit-scrollbar {
+    display: none;
+}
+#enemy{
+    top: 63%;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.hero-box {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.heroname{
+    position: relative;
+    font-family: Cinzel;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #B9F6FF;
+    font-size: 25px;
+    text-align: center;
+}
+#first{
+    padding-left: 16px;
+}
+#last{
+    padding-right: 16px;
+}
+.tit{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-family: Cinzel;
+    font-weight: 600;
+    color: white;
+    font-size: 40px;
+    top: 12%;
+    text-shadow: 1px 2px 3px #FFFAF4;
+}
+.name{
+    position: absolute;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: center;
+    font-family: Cinzel;
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+    top: 19%;
+    left: 2.5%;
+}
+#n2{
+    top: 59%;
+}

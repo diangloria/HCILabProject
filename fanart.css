@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Caesar+Dressing&family=Carme&family=Cinzel:wght@500;700&family=Cormorant+Infant:wght@700&family=Cormorant:wght@700&family=DM+Serif+Text&display=swap');
+.want{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 4%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Cormorant;
+    font-size: 20px;
+}
+.center{
+    width: 55%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50%;
+    /* margin-top: 50%; */
+    transform: translate(-50%);
+    color: white;
+}
+.fanartimage{
+    border-radius: 10%;
+}
+.fanartboxl{
+    position: absolute;
+    width: 42%;
+    height: auto;
+    background-color: #E9E0C5;
+    left: 2.5%;
+    top: 8%;
+    padding: 27px 27px 20px 27px;
+    font-family: 'DM Serif Text', serif;
+    color: #705A41;
+    font-size: 40px;
+    border-radius: 10px;
+}
+.fanartboxr{
+    position: absolute;
+    width: 42%;
+    height: auto;
+    background-color: #E9E0C5;
+    left: 51%;
+    top: 8%;
+    padding: 27px 27px 20px 27px;
+    font-family: 'DM Serif Text', serif;
+    color: #705A41;
+    font-size: 40px;
+    border-radius: 10px;
+}
+.descbox{
+    display: flex;
+}
+.info{
+    position: absolute;
+    right: 27px;
+    font-size: 14px;
+    bottom: 29px;
+}
+#f2{
+    top: 25.5%;
+}
+#f3{
+    top: 53.3%;
+    left: 2.5%;
+}
+#f4{
+    top: 75.7%;
+}
+#f6{
+    top: 32.7%;
+}
+#f7{
+    top: 63.2%;
+}
