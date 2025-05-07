@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+</head>
+<body>
+    <img src="login.png" alt="" class="back">
+    <div class="close">
+        <a href="homepage2.html" class="x">X</a>
+    </div>
+    <div class="loginform">
+        <div class="signupnav">
+            <img src="login2.png" alt="" id="signuppic">
+            <div class="signupask">Don’t have account?</div>
+            <div class="button">
+                <a href="signup.html" class="tulisan">Sign Up</a>
+            </div>
+        </div>
+        <div class="loginnav">
+            <div class="form">
+                <input type="email" id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+            </div>
+            <div class="button2">
+                <div class="tulisan" id="ubah" onclick="validate()">Log In</div>
+                <!-- validation email and isi password then go to home page -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

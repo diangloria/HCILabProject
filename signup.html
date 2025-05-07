@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="signup.js"></script>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <img src="signup1.png" alt="" class="back">
+    <div class="close">
+        <a href="homepage2.html" class="x">X</a>
+    </div>
+    <div class="loginform">
+        <div class="signupnav">
+            <img src="signup2.png" alt="" id="signuppic">
+            <div class="signupask">Already have account?</div>
+            <div class="button">
+                <a href="login.html" class="tulisan">Log In</a>
+            </div>
+        </div>
+        <div class="loginnav">
+            <div class="form">
+                <input type="text" id="username" placeholder="Username">
+                <select name="Country" id="country">
+                    <option value="" class="cb" disabled selected>Country</option>
+                    <option value="Indonesia" class="cb">Indonesia</option>
+                    <option value="Japan" class="cb">Japan</option>
+                    <option value="United Kingdom" class="cb">United Kingdom</option>
+                    <option value="United States" class="cb">United States</option>
+                    <option value="Others" class="cb">Others</option>
+                </select>
+                <input type="email" id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+                <label class="container">
+                    <input type="checkbox" id="terms"> 
+                    <span class="checkmark"></span>
+                </label>
+                <div class="text">Please confirm that you agree to our terms and conditions</div>
+            </div>
+            <div class="button2">
+                <div class="tulisan" id="ubah" onclick="validate()">Sign Up</div>
+                <!-- validation email and isi password then go to home page -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
